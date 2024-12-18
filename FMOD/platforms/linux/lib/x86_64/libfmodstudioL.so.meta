@@ -1,9 +1,8 @@
 fileFormatVersion: 2
-guid: 1e77d17a05fd7b34e9306c3281200271
-folderAsset: yes
+guid: bc671477c6d81324993354dfb6d44208
 PluginImporter:
   externalObjects: {}
-  serializedVersion: 2
+  serializedVersion: 3
   iconMap: {}
   executionOrder: {}
   defineConstraints: []
@@ -12,21 +11,17 @@ PluginImporter:
   isExplicitlyReferenced: 0
   validateReferences: 1
   platformData:
-  - first:
-      Any: 
-    second:
+    Any:
       enabled: 0
       settings: {}
-  - first:
-      Editor: Editor
-    second:
-      enabled: 0
+    Editor:
+      enabled: 1
       settings:
+        CPU: x86_64
         DefaultValueInitialized: true
-  - first:
-      Standalone: OSXUniversal
-    second:
-      enabled: 0
+        OS: Linux
+    Linux64:
+      enabled: 1
       settings: {}
   userData: 
   assetBundleName: 
